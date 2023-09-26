@@ -30,7 +30,7 @@ import support from "../assets/support.png";
 import GMXio from "../assets/GMXio.png";
 import secretIntegration from "../assets/secretIntegration.png";
 import clouds from "../assets/clouds.png";
-import instantLPMatching from "../assets/instantLPMatching.png";
+import instantLPMatching from "../assets/dl1.svg";
 import supportedNetworks from "../assets/supportedNetworks.png";
 import setUpLaunch from "../assets/setUpLaunch.png";
 import setUpWallets from "../assets/setUpWallets.png";
@@ -118,7 +118,7 @@ function Home() {
                   <Spacer height={20} />
                   <Button
                      text="Learn more"
-                     openNewPage="https://docs.wagiebot.com/spot-buy-sell/contract-pasting"
+                     openNewPage="https://docs.wagiebot.com/telegram/contract-pasting"
                      rightArrow
                      alignRight
                   />
@@ -202,14 +202,14 @@ function Home() {
                   body="Featuring Method Sniping & Liquidity Sniping with Block Delays, Dead Blocks, Bribing, Anti-Rug and more. Set up your sniper and be amongst the first on any new token launch."
                   image={sniping}
                   id="Sniping"
-                  onOpenNewPage="https://docs.wagiebot.com/sniper/contract-snipers"
+                  onOpenNewPage="https://docs.wagiebot.com/telegram/snipers"
                />
                <Card
                   title="Copy Trading"
                   body="Automatically copy the trades of anyone on any of the supoorted chains. Adjust your settings and mimick every move the address you're copying makes."
                   image={copyTrading}
                   id="copyTrading"
-                  onOpenNewPage="https://docs.wagiebot.com/copy-trading/copy-trading"
+                  onOpenNewPage="https://docs.wagiebot.com/telegram/copy-trading"
                />
             </div>
             <Spacer height={20} />
@@ -219,14 +219,14 @@ function Home() {
                   body="Avoid sandwich and front running bots with Wagie's built-in Anti-Mev protection. Send private transactions with high slippage without losing money."
                   image={antiMev}
                   id="antiMev"
-                  onOpenNewPage="https://docs.wagiebot.com/spot-buy-sell/anti-mev"
+                  onOpenNewPage="https://docs.wagiebot.com/telegram/wallets/on-paste-wallet-settings#buy-sell-settings"
                />
                <Card
                   title="Limit Orders"
                   body="Profit from volatility on the go. Get your perfect entries using Wagie's Limit Orders."
                   image={limitOrders}
                   id="limitOrders"
-                  onOpenNewPage="https://docs.wagiebot.com/spot-buy-sell/"
+                  onOpenNewPage="https://docs.wagiebot.com/telegram/limit-orders"
                />
             </div>
             <Spacer height={20} />
@@ -236,7 +236,7 @@ function Home() {
                   body="Create Advanced Stop-Loss and Take-Profits presets or use custom settings per trade basis. Wagie will check if your order is nearing SL/TP every block."
                   image={advancedSLTP}
                   id="advancedSLTP"
-                  onOpenNewPage="https://docs.wagiebot.com/spot-buy-sell/trade-monitoring/stop-loss-and-take-profit-orders"
+                  onOpenNewPage="https://docs.wagiebot.com/telegram/trade-tracker/stop-loss-and-take-profit-orders"
                />
                <Card
                   title="Support"
@@ -276,7 +276,7 @@ function Home() {
                <Spacer height={50} />
                <Button
                   text="Learn more"
-                  openNewPage="https://docs.wagiebot.com/general/introduction-to-wagie"
+                  openNewPage="https://docs.wagiebot.com/general/welcome-to-wagiebot"
                   rightArrow
                />
             </Banner>
@@ -289,7 +289,7 @@ function Home() {
                   body="Go long or short with up to 50x leverage using the leading decentralized perpetuals exchange directly through WagieBot."
                   image={GMXio}
                   id="GMXio"
-                  onOpenNewPage="https://docs.wagiebot.com/gmx-perpetuals/gmx-trading"
+                  onOpenNewPage="https://docs.wagiebot.com/telegram/gmx"
                />
                <Card
                   title="?"

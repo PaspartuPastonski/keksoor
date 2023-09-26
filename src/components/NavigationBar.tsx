@@ -20,7 +20,7 @@ const navigationLinks: {
    },
    {
       text: "Changelog",
-      href: "https://wagiebot.com/blog/changelog",
+      href: "https://medium.com/@wagiebot",
    },
    {
       text: "Documentation",

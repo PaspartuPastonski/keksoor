@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f97429a4.css",
+    "main.js": "/static/js/main.5729f17b.js",
+    "static/media/skyWithStars1.png": "/static/media/skyWithStars1.53c86fd40c38afa6adc7.png",
+    "static/media/clouds.png": "/static/media/clouds.14a9d1ac2ce1feffa16a.png",
+    "static/media/render1.png": "/static/media/render1.e506edff04395cdd5832.png",
+    "static/media/hands.png": "/static/media/hands.b7377f4b1bcd005e2970.png",
+    "static/media/setUpBuySell.png": "/static/media/setUpBuySell.1344e238bf4677bb1713.png",
+    "static/media/setUpWallets.png": "/static/media/setUpWallets.94a318e2b3a71e903585.png",
+    "static/media/setUpPaste.png": "/static/media/setUpPaste.0847d6c1e98878213644.png",
+    "static/media/setUpTrack.png": "/static/media/setUpTrack.d21dfab1bdb6e6fa3953.png",
+    "static/media/setUpLaunch.png": "/static/media/setUpLaunch.63ec4334f24faae946ea.png",
+    "static/media/Logo.svg": "/static/media/Logo.c6f5c8b63b5efd912c8506fd7bfe313b.svg",
+    "static/media/yourDeFiHelper.png": "/static/media/yourDeFiHelper.45cbb59b93ef4bd7e465.png",
+    "static/media/advancedSLTP.png": "/static/media/advancedSLTP.04dc3a3ff8f4f2985d45.png",
+    "static/media/copyTrading.png": "/static/media/copyTrading.fda07471cbedd1291e7c.png",
+    "index.html": "/index.html",
+    "main.f97429a4.css.map": "/static/css/main.f97429a4.css.map",
+    "main.5729f17b.js.map": "/static/js/main.5729f17b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f97429a4.css",
+    "static/js/main.5729f17b.js"
+  ]
+}

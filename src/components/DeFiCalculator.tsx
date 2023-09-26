@@ -76,23 +76,23 @@ function DeFiCalculator() {
       () => [
          {
             aboveText: "Free",
-            bellowText: "0 Tokens",
+            bellowText: "",
          },
          {
             aboveText: "Tier 1",
-            bellowText: "500 Tokens",
+            bellowText: "",
          },
          {
             aboveText: "Tier 2",
-            bellowText: "1000 Tokens",
+            bellowText: "",
          },
          {
             aboveText: "Tier 3",
-            bellowText: "1500 Tokens",
+            bellowText: "",
          },
          {
             aboveText: "Tier 4",
-            bellowText: "2000 Tokens",
+            bellowText: "",
          },
       ],
       [],
