@@ -2,7 +2,6 @@ import { memo, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-   faDiscord,
    faMedium,
    faTelegram,
    faTwitter,
@@ -67,7 +66,6 @@ function Home() {
                      <Spacer height={10} />
                      <div className="flexHolder">
                         <GetOnButton type="telegram" defaultLeftInset />
-                        <GetOnButton type="discord" />
                      </div>
                   </div>
                   <div className="heroSectionImage">
@@ -307,7 +305,6 @@ function Home() {
                <Spacer height={70} />
                <div className="flexHolder aCenter tryOutButtons">
                   <GetOnButton type="telegram" />
-                  <GetOnButton type="discord" />
                </div>
             </Banner>
             <Spacer height={80} />
@@ -316,9 +313,6 @@ function Home() {
             <div className="flexHolder aCenter">
                <Link to="https://t.me/wagiebot" title="Telegram" target="_blank">
                   <FontAwesomeIcon className="mainIcon" icon={faTelegram} id="telegram" />
-               </Link>
-               <Link to="/discordComingSoon" title="Discord">
-                  <FontAwesomeIcon className="mainIcon" icon={faDiscord} id="discord" />
                </Link>
                <Link to="https://medium.com/@wagiebot" title="Medium" target="_blank">
                   <FontAwesomeIcon className="mainIcon" icon={faMedium} id="medium" />
